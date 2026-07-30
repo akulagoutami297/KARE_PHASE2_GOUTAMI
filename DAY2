@@ -26,3 +26,102 @@ public class Main
 		System.out.println("Not Divisible by 3 And remainder is"+a%3);
 	}
 }
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj = new Scanner(System.in);
+	    int a = obj.nextInt();
+	    if(a%2==0)
+		System.out.println("even");
+		else
+		System.out.println("odd");
+	}
+}
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj = new Scanner(System.in);
+	    int a = obj.nextInt();
+	    if(a>=18)
+		System.out.println("Eligible to vote");
+		else
+		System.out.println("Not Eligible to vote");
+	}
+}
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    int a=obj.nextInt();
+	    int b=obj.nextInt();
+	    int c=obj.nextInt();
+	    if(a<b && a<c)
+		System.out.println(a+"is smallest");
+		else if(b<c)
+		System.out.println(b+"is smallest");
+		else
+		System.out.println(c+"is smallest");
+		
+	}
+}
+
+import java.util.*;
+class Main {
+	public static void main(String[] args) {
+	    Scanner obj = new Scanner(System.in);
+	    int a,b;
+	    a = obj.nextInt();
+	    b = obj.nextInt();
+	    if (a > b)
+		System.out.println(a+"is greater");
+		else 
+		System.out.println(b+ "is greater");
+	}
+}
+
+
+import java.util.*;
+class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int year;
+		year = sc.nextInt();
+		if (year%400==0 || year%4==0 && year%100!=0)
+			System.out.print("Leap Year");
+		else
+			System.out.print("Not a Leap Year");
+	}
+}
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int h = sc.nextInt();
+        int m = sc.nextInt();
+        int s = sc.nextInt();
+        if (h < 24 && m < 60 && s < 60)
+            System.out.println("valid");
+        else
+            System.out.println("invalid");
+    }
+}
+
+import java.util.*;
+class Main {
+	public static void main(String[] args) {
+	    Scanner obj = new Scanner(System.in);
+	    int a = obj.nextInt();
+	    if ( a % 3 == 0 && a % 5 == 0)
+		System.out.println("hi hello");
+		else if ( a % 3 == 0)
+		System.out.println("hi");
+		
+	}
+}
