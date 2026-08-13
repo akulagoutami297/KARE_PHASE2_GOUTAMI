@@ -1,17 +1,4 @@
 // Hybrid Inheritance:
-    
-//   ----------- 
-//   | Class A  |
-//   |          |
-//  -|----------|------------
-// | |          |            |
-// | |  Class B | Class D    |   here we need to create two objects one for the Son and the other for the MOther
-// | |          |            |   the Son will be able to acess the A,B and C where as the D will help to access the 
-//  -|----------|------------     class D and also the class B
-//   |          |  
-//   | Class C  |
-//   |          |
-//   ------------
 
 class GrandFather{
     void gen1(){
