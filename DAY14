@@ -48,3 +48,107 @@ public class Student{
 }
 Output:
 0 null
+
+// by using the number of parameters we are OverlOading the Method
+import java.util.*;
+class Main{
+    static void add(int a, int b){
+        System.out.println(a+b);
+    }
+    static void add(int a,int b,int c){
+        System.out.println(a+b+c);
+    }
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        System.out.println("the sume of the first two numbes is ");
+        add(a,b);
+        System.out.println("the sume of the total three number is");
+        add(a,b,c);
+        
+    }
+}
+Output:
+5
+6
+7
+the sume of the first two numbes is 
+11
+the sume of the total three number is
+18
+
+// by using the type of parameters we are Overloading the Method
+import java.util.*;
+class Main{
+    static void print(int a, float b){
+        System.out.println(a+" "+b);
+    }
+    static void print(float b,char c){
+        System.out.println(b+" "+ c);
+    }
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        float b = sc.nextFloat();
+        char c = sc.next().charAt(0);
+        print(a,b);
+        print(b,c);
+    }
+}
+Output:
+8
+3.5
+p
+8 3.5
+3.5 p
+
+// by using the Order of parameters we are Overloading the Method
+import java.util.*;
+class Main{
+    static void print(int a, float b){
+        System.out.println(a+" "+b);
+    }
+    
+    static void print(float b,int a){
+        System.out.println(b+" "+ a);
+    }
+    static void print(int a,char c){
+        System.out.println(a+" "+ c);
+    }
+    static void print(char c,int a){
+        System.out.println(c+" "+ a);
+    }
+    static void print(double d,int a){
+        System.out.println(d+" "+ a);
+    }
+    static void print(float b,double d){
+        System.out.println(b+" "+ d);
+    }
+    
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        float b = sc.nextFloat();
+        char c = sc.next().charAt(0);
+        double d = sc.nextDouble();
+        print(a,b);
+        print(b,a);
+        print(a,c);
+        print(c,a);
+        print(d,a);
+        print(b,d);
+    }
+}
+Output:
+5
+6.5
+h
+6.5321
+5 6.5
+6.5 5
+5 h
+h 5
+6.5321 5
+6.5 6.5321
