@@ -62,7 +62,7 @@ the entered Float number is 5.666
 
 
 
-6.// program to get a float digit from user and print it to the 2 decimal points
+5.// program to get a float digit from user and print it to the 2 decimal points
 
 import java.util.*;
 public class Main{
