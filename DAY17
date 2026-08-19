@@ -1,4 +1,4 @@
-sum of all elements in a Circular Singly Linked List.
+1.sum of all elements in a Circular Singly Linked List.
 
 import java.util.*;
 
@@ -359,7 +359,7 @@ Output:
 
 
 
-1.sum of all elements in a Doubly Linked List.
+6.sum of all elements in a Doubly Linked List.
 
 import java.util.*;
 
@@ -422,7 +422,7 @@ Output:
 Sum = 150
 
 
-2.sort the elements of a Doubly Linked List in ascending order.
+7.sort the elements of a Doubly Linked List in ascending order.
 
 import java.util.*;
 
@@ -492,7 +492,7 @@ Output:
 10 20 30 40 50
 
 
-3.maximum element in a Doubly Linked List.
+8.maximum element in a Doubly Linked List.
 
 Program:
 
@@ -560,7 +560,7 @@ Output:
 Maximum = 80
 
 
-4. insert an element at the end of a Doubly Linked List.
+9. insert an element at the end of a Doubly Linked List.
 
 Program:
 
@@ -633,7 +633,7 @@ Output:
 10 20 30 40 50
 
 
-5. reverse the elements of a Doubly Linked List.
+10. reverse the elements of a Doubly Linked List.
 
 Program:
 
